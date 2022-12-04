@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ForceFormulaCLIENT
+Bundle-SymbolicName: ForceFormulaCLIENT
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: forceformulaclient.ForceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: ForceFormulaCLIENT
+Import-Package: forceformulaservice,
+ org.osgi.framework;version="1.3.0",
+ valocitydistancetimeserver
+Bundle-ActivationPolicy: lazy
+Export-Package: forceformulaclient

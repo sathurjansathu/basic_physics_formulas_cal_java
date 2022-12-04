@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DensityFormulaCLIENT
+Bundle-SymbolicName: DensityFormulaCLIENT
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: densityformulaclient.DensityActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: DensityFormulaCLIENT
+Import-Package: densityfornulaservice,
+ org.osgi.framework;version="1.3.0",
+ valocitydistancetimeserver
+Bundle-ActivationPolicy: lazy
+Export-Package: densityformulaclient

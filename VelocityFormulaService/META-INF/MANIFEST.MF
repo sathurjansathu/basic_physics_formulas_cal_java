@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: VelocityFormulaService
+Bundle-SymbolicName: VelocityFormulaService
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: velocityformulaservice.VelocityActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: VelocityFormulaService
+Import-Package: org.osgi.framework;version="1.3.0",
+ valocitydistancetimeserver
+Bundle-ActivationPolicy: lazy
+Export-Package: velocityformulaservice
